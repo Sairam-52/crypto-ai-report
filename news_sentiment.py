@@ -14,6 +14,7 @@ def fetch_article_text(url):
 def analyze_text(text):
     s = sentiment(text[:512])  # or chunk
     return s
+print(s)
 
 # crawl headlines from CoinDesk + Reuters RSS, run classify
 
