@@ -1,8 +1,11 @@
 import time, requests, pandas as pd
+import requests
+import datetime as dte
+import os
 
 COINGECKO_API = "https://api.coingecko.com/api/v3"
 
-def get_top_coins(limit=20):
+def get_top_coins(limit=50):
     r = requests.get(f"{COINGECKO_API}/coins/markets", params={
         "vs_currency":"usd",
         "order":"market_cap_desc",
