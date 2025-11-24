@@ -1,0 +1,29 @@
+[
+  {
+    "headline": "Bitcoin dips as ETF flows slow",
+    "sentiment": [
+      {
+        "label": "NEGATIVE",
+        "score": 0.9996639490127563
+      }
+    ]
+  },
+  {
+    "headline": "Ethereum upgrade scheduled",
+    "sentiment": [
+      {
+        "label": "NEGATIVE",
+        "score": 0.9188539385795593
+      }
+    ]
+  },
+  {
+    "headline": "Major exploit hits altcoin project",
+    "sentiment": [
+      {
+        "label": "POSITIVE",
+        "score": 0.9802398085594177
+      }
+    ]
+  }
+]
